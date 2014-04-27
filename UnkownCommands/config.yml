@@ -1,0 +1,17 @@
+# Don't want to use the server's default messages? Set your own. (This will override all other error message costumizations!)
+errormessage: []
+
+# Add commands here to make them available. You can also use the ingame /hidecmd and /unhidecmd commands
+whitelist:
+# Uncomment to allow all Vanilla player commands
+#    - tell
+#    - kill
+#    - me
+# Warning! This Plugin will not manipulate the help. 
+# If you don't costumize it with another plugin you risk to expose that your server is an bukkit server!
+#    - help
+#    - ?
+# Uncomment to allow Bukkit player commands
+#    - version
+#    - plugins
+#    - pl

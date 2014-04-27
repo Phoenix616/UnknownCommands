@@ -1,0 +1,29 @@
+name: UnknownCommands
+main: de.themoep.bukkit.plugin.unknowncommands.UnknownCommands
+version: 0.1
+description: Hides commands from the user by displaying the servers default unknown command message.
+author: Phoenix616
+website: https://github.com/Phoenix616/UnknownCommands/
+commands:
+   hidecommand:
+      description: Hides a command
+      alias: /hidecmd
+      usage: /hidecommand <commandname>
+      permission: unknowncommands.hide
+      permission-message: You don't have the permission <permission>      
+   unhidecommand:
+      description: Unhides a command
+      alias: /unhidecmd
+      usage: /unhidecommand <commandname>
+      permission: unknowncommands.unhide
+      permission-message: You don't have the permission <permission>
+permissions:
+   unknowncommands.hide:
+      description: Gives permission to hide commands
+      default: op
+   unknowncommands.unhide:
+      description: Gives permission to unhide commands
+      default: op
+   unknowncommands.bypass:
+      description: Gives permission to bypass command restrictions
+      default: op
