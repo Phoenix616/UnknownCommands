@@ -3,7 +3,9 @@ errormessage: []
 
 # Add commands here to make them available. You can also use the ingame /hidecmd and /unhidecmd commands
 whitelist:
-# Uncomment to allow all Vanilla player commands
+
+# Add commands above!
+# Examples:
 #    - tell
 #    - kill
 #    - me
@@ -11,7 +13,7 @@ whitelist:
 # If you don't costumize it with another plugin you risk to expose that your server is an bukkit server!
 #    - help
 #    - ?
-# Uncomment to allow Bukkit player commands
+# Allow Bukkit player commands
 #    - version
 #    - plugins
 #    - pl

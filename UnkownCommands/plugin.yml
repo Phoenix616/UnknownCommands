@@ -7,14 +7,14 @@ website: https://github.com/Phoenix616/UnknownCommands/
 commands:
    hidecommand:
       description: Hides a command
-      alias: /hidecmd
-      usage: /hidecommand <commandname>
+      aliases: [hidecmd]
+      usage: /hidecommand <command to hide>
       permission: unknowncommands.hide
       permission-message: You don't have the permission <permission>      
    unhidecommand:
       description: Unhides a command
-      alias: /unhidecmd
-      usage: /unhidecommand <commandname>
+      aliases: [unhidecmd]
+      usage: /unhidecommand <command to unhide>
       permission: unknowncommands.unhide
       permission-message: You don't have the permission <permission>
 permissions:
