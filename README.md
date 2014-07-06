@@ -28,7 +28,7 @@ You may also ask why a whitelist instead of really checking if the player has th
 
 Permissions and Commands
 --------
-* */unhidecommand* - **unknowncommands.hide** - lets you add a command from the commandwhitelist
+* */unhidecommand* - **unknowncommands.unhide** - lets you add a command to the commandwhitelist
 * */hidecommand* - **unknowncommands.hide** - lets you remove a command from the commandwhitelist
 * **unknowncommands.bypass** - bypass the features of this plugin
 Operators have all three permissions on default!
